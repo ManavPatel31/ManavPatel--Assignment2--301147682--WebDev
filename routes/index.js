@@ -3,44 +3,21 @@
 var express = require('express');
 var router = express.Router();
 
+var indexController=require('../controllers/index');
+
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('home', {
-    title: 'Home',
-    userName: 'Manav Patel'
-   });
-});
+router.get('/', indexController.home);
 
 /* GET about page available on http://localhost:3000/about. */
-router.get('/about', function(req, res, next) {
-  res.render('about', {
-    title: 'About',
-    userName: 'Manav Patel'
-   });
-});
+router.get('/about', indexController.about);
 
 /* GET Project page. */
-router.get('/project', function(req, res, next) {
-  res.render('project', {
-    title: 'Project',
-    userName: 'Manav Patel'
-   });
-});
+router.get('/project',indexController.project);
 
 /* GET services page. */
-router.get('/services', function(req, res, next) {
-  res.render('services', {
-    title: 'Services',
-    userName: 'Manav Patel'
-   });
-});
+router.get('/services', indexController.services);
 
 /* GET Contact-Me page. */
-router.get('/contact-me', function(req, res, next) {
-  res.render('contact_me', {
-    title: 'Contact Me',
-    userName: 'Manav Patel'
-   });
-});
+router.get('/contact-me', indexController.contact_me);
 
 module.exports = router;
