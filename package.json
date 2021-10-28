@@ -1,6 +1,6 @@
 {
   "name": "assignment-02",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
@@ -27,5 +27,24 @@
     "morgan": "~1.9.1",
     "passport": "^0.5.0",
     "passport-local": "^1.0.0"
-  }
+  },
+  "description": "This is the second assignment final version",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManavPatel31/ManavPatel--Assignment2--301147682--WebDev.git"
+  },
+  "keywords": [
+    "Assignment",
+    "2",
+    "Final",
+    "Submission"
+  ],
+  "author": "Manav Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManavPatel31/ManavPatel--Assignment2--301147682--WebDev/issues"
+  },
+  "homepage": "https://github.com/ManavPatel31/ManavPatel--Assignment2--301147682--WebDev#readme"
 }

@@ -47,7 +47,7 @@
                             <i class="fas fa-pencil-alt"></i></a>
                         </td>
                         <td class="text-center">
-                            <a href="/inventory/delete/<%= InventoryList[count]._id %>" class="btn btn-danger btn-sm">
+                            <a href="/inventory/delete/<%= InventoryList[count]._id %>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">
                             <i class="fas fa-trash-alt"></i></a>
                         </td>
                     </tr>
